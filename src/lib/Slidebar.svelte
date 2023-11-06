@@ -82,7 +82,7 @@ Recommend viewing in Visual Source Code.
 		right: 0;
 		padding: 25px;
 		height: 100vh;
-		width: 450px;
+		width: 400px;
 		border-left: 1px solid rgba(0, 0, 0, 0.1);
 		box-shadow: -2px 0px 6px -1px rgba(0, 0, 0, 0.1);
 		background: rgba(255, 255, 255, 0.25);
