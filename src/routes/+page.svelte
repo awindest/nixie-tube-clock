@@ -31,7 +31,7 @@ Here is the codepen link: https://codepen.io/RAFA3L/pen/PoVYoPN
 	$: day = date.getDate().toString().padStart(2, '0');
 	$: year = date.getFullYear().toString().slice(-2);
 
-	let dayOrNight = 'AM';
+	let dayOrNight = date.getHours() >= 12 ? 'PM' : 'AM';
 
 	onMount(() => {
 		const interval = setInterval(() => {
